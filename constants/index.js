@@ -34,20 +34,28 @@ const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
-    icon: <FullStackIcon />,
-  },
-  {
-    title: "Frontend Developer",
-    icon: <FrontendIcon />,
-  },
-  {
-    title: "Backend Developer",
+    title: "AI Research",
     icon: <BackendIcon />,
   },
   {
-    title: "Problem Solving",
-    icon: <ProblemSolvingIcon />,
+    title: "Machine Learning",
+    icon: <FullStackIcon />,
+  },
+  {
+    title: "Deep Learning",
+    icon: <FrontendIcon />,
+  },
+  {
+    title: "Computer Vision",
+    icon: <BackendIcon />,
+  },
+  {
+    title: "Generative AI",
+    icon: <BackendIcon />,
+  },
+  {
+    title: "FrontEnd Development",
+    icon: <FrontendIcon />,
   },
   {
     title: "Freelancer",
@@ -211,42 +219,41 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Tech Lead at GDSC MVJCE",
-    icon: "/assets/company/gdsc-logo.svg",
-    iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
-    points: [
-      "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-      "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
-    ],
-  },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
+    title: "Generative AI Engineer",
+    company_name: "FreeLance",
     icon: "/assets/company/drdo-cabs.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "March 2024 - April 2024",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "I have developed and implemented LocusChat, a generative AI project designed for customer interaction in hotels, restaurants, and clinics",
+      "This involved creating an intelligent system capable of handling customer inquiries and providing prompt, accurate responses",
+      "My responsibilities included designing the AI architecture, training models, integrating the system with various platforms, and ensuring seamless user experience",
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Tech team member at GDSC MVJCE",
+    title: "GDSC AI/ML Lead",
+    company_name: "Google Developer Student Clubs RGUKT Nuzvid",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
-    date: "February 2022 - July 2023",
+    date: "August 2023 - September 2024",
     points: [
-      "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-      "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-      "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-      "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
+      "Responsible for raising awareness about trending AI technologies at my university",
+      "I was selected for this role due to my skills and problem-solving abilities, outshining many competitors",
+      "I motivate and support students interested in AI/ML as part of my open-source contributions",
+    ],
+  },
+  {
+    title: "Data Science Intern",
+    company_name: "LetsGrowMore",
+    icon: "/assets/company/gdsc-logo.svg",
+    iconBg: "#E6DEDD",
+    date: "February 2023 - March 2023",
+    points: [
+      "Conducted Exploratory Data Analysis to uncover crucial insights",
+      "Performed Feature Engineering and Selection for model-ready datasets",
+      "Developed CNN models for recognizing mathematical characters and equations, a mood-based song suggestion model",
+      "Developed UI prototype for a House Price Prediction project",
+      "Major contributor to these projects, earning a Letter of Recommendation from the company",
     ],
   },
 ];
@@ -447,37 +454,39 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/Nikhil-Rao20",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/nikhileswara-rao-sulake/",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://x.com/s_rao80798",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/mine_nikhil_rao/",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
+  "Machine Learning Engineer",
+  500,
+  "Deep Learning Researcher",
+  500,
+  "AI Researcher",
+  500,
+  "Computer Vision Engineer",
+  500,
+  "Generative AI Researcher",
+  500,
+  "Frontend Web Developer",
   500,
   "Freelancer",
-  500,
-  "Full-Stack developer",
-  500,
-  "Frontend developer",
-  500,
-  "Backend developer",
-  500,
-  "Tech Team Lead at GDSC MVJCE",
   500,
 ];
 
