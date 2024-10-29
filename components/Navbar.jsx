@@ -70,10 +70,10 @@ function Navbar() {
 						</div>
 						<Link href="/">
 							<p className="dark:text-ctnPrimaryDark text-ctnPrimaryLight text-[18px] font-bold cursor-pointer flex ">
-								Shivam Sharma &nbsp;
+								Nikhileswara Rao Sulake &nbsp;
 								<span className="lg:block hidden">
 									{" "}
-									| Frontend Developer
+									| AI Engineer
 								</span>
 							</p>
 						</Link>

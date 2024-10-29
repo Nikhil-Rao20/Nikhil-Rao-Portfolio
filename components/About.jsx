@@ -28,27 +28,27 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
+          Hello! I&apos;m Nikhileswara Rao Sulake, a passionate Deep Learning Researcher and Engineer.
+          Currently, I&apos;m working on research papers in the domain of Medical Image Analysis, and
+          I&apos;m pursuing a B.Tech. degree in Computer Science and Engineering at
+          RGUKT Nuzvid, India, with an expectedgraduation year of 2027. I&apos;m a AI Engineer with experience
+          in Deep Learning, Computer Vision, Generative AI and Machine Learning. I specialize in frameworks
+          such as Tensorflow, Pytorch, OpenCV, Langchain, OpenAI. I am eager to leverage 
+          expertise in guiding organizations toward their aspirations. My
+          knowledge extends to fundamental  mathematics, data structures and algorithms
+          making me well-versed in Deep learning Research.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:nikhil01446@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            nikhil01446@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +64,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/Nikhil_CV.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

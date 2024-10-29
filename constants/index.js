@@ -35,7 +35,7 @@ const navLinks = [
 const services = [
   {
     title: "AI Research",
-    icon: <BackendIcon />,
+    icon: <FrontendIcon />,
   },
   {
     title: "Machine Learning",
@@ -43,51 +43,25 @@ const services = [
   },
   {
     title: "Deep Learning",
-    icon: <FrontendIcon />,
+    icon: <ProblemSolvingIcon />,
   },
   {
     title: "Computer Vision",
-    icon: <BackendIcon />,
-  },
-  {
-    title: "Generative AI",
-    icon: <BackendIcon />,
-  },
-  {
-    title: "FrontEnd Development",
-    icon: <FrontendIcon />,
-  },
-  {
-    title: "Freelancer",
     icon: <FreelancerIcon />,
   },
   {
-    title: "Leadership",
-    icon: <LeaderShipIcon />,
+    title: "Generative AI Applications",
+    icon: <BackendIcon />,
   },
 ];
 
 const technologies = {
   languages: [
+    
     {
-      name: "HTML5",
-      icon: "/assets/tech/html5.svg",
-      link: "https://html.spec.whatwg.org/multipage/",
-    },
-    {
-      name: "CSS3",
-      icon: "/assets/tech/css3.svg",
-      link: "https://www.w3.org/Style/CSS/Overview.en.html",
-    },
-    {
-      name: "JavaScript",
-      icon: "/assets/tech/javascript.svg",
-      link: "https://262.ecma-international.org/",
-    },
-    {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
+      name: "Python",
+      icon: "/assets/tech/python.svg",
+      link: "https://www.python.org/",
     },
     {
       name: "C",
@@ -98,16 +72,6 @@ const technologies = {
       name: "Java",
       icon: "/assets/tech/java.svg",
       link: "https://www.java.com/en/",
-    },
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
-    {
-      name: "PHP",
-      icon: "/assets/tech/php.png",
-      link: "https://www.php.net/",
     },
   ],
   frameworks: [
@@ -133,11 +97,7 @@ const technologies = {
     },
   ],
   libraries: [
-    {
-      name: "React",
-      icon: "/assets/tech/react.svg",
-      link: "https://react.dev/",
-    },
+    
     {
       name: "Three.js",
       icon: "/assets/tech/threejs.svg",
@@ -176,10 +136,26 @@ const technologies = {
       link: "https://github.com/",
     },
     {
-      name: "Postman",
-      icon: "/assets/tech/postman.svg",
-      link: "https://www.postman.com/",
+      name: "TensorBoard",
+      icon: "/assets/tech/TensorBoard.png",
+      link: "https://www.tensorflow.org/tensorboard",
     },
+    {
+      name: "WanDB",
+      icon: "/assets/tech/wandb.png",
+      link: "https://wandb.ai/site/",
+    },
+    {
+      name: "Kaggle",
+      icon: "/assets/tech/kaggle.png",
+      link: "https://www.kaggle.com/",
+    },
+    {
+      name: "CUDA",
+      icon: "/assets/tech/nvidia.png",
+      link: "https://developer.nvidia.com/cuda-toolkit",
+    },
+    
     {
       name: "Figma",
       icon: "/assets/tech/figma.svg",
@@ -190,29 +166,67 @@ const technologies = {
       icon: "/assets/tech/docker.svg",
       link: "https://www.docker.com/",
     },
+    
+
   ],
   environments: [
     {
-      name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
-      link: "https://nodejs.org/en",
+      name: "Anaconda",
+      icon: "/assets/tech/Anaconda.png",
+      link: "https://www.anaconda.com/",
+    },
+    {
+      name: "Jetson Nano",
+      icon: "/assets/tech/jetson.png",
+      link: "https://developer.nvidia.com/embedded/jetson-nano",
+    },
+    {
+      name: "NVIDIA AI Workbench",
+      icon: "/assets/tech/nvidia.png",
+      link: "https://www.nvidia.com/en-in/deep-learning-ai/solutions/data-science/workbench/",
+    },
+    
+    {
+      name: "Raspberr Pi",
+      icon: "/assets/tech/raspberry.png",
+      link: "https://www.raspberrypi.com/",
     },
   ],
   databases: [
     {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
+      name: "HTML5",
+      icon: "/assets/tech/html5.svg",
+      link: "https://html.spec.whatwg.org/multipage/",
     },
     {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
+      name: "CSS3",
+      icon: "/assets/tech/css3.svg",
+      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+    },
+    {
+      name: "JavaScript",
+      icon: "/assets/tech/javascript.svg",
+      link: "https://262.ecma-international.org/",
+    },
+    {
+      name: "TypeScript",
+      icon: "/assets/tech/typescript.svg",
+      link: "https://www.typescriptlang.org/",
     },
     {
       name: "MySQL",
       icon: "/assets/tech/my-sql.png",
       link: "https://www.mysql.com/",
+    },
+    {
+      name: "ReactJs",
+      icon: "/assets/tech/react.svg",
+      link: "https://react.dev/",
+    },
+    {
+      name: "Node.js",
+      icon: "/assets/tech/nodejs.svg",
+      link: "https://nodejs.org/en",
     },
   ],
 };
@@ -221,7 +235,7 @@ const experiences = [
   {
     title: "Generative AI Engineer",
     company_name: "FreeLance",
-    icon: "/assets/company/drdo-cabs.png",
+    icon: "/assets/company/freelancer.png",
     iconBg: "#E6DEDD",
     date: "March 2024 - April 2024",
     points: [
@@ -245,7 +259,7 @@ const experiences = [
   {
     title: "Data Science Intern",
     company_name: "LetsGrowMore",
-    icon: "/assets/company/gdsc-logo.svg",
+    icon: "/assets/company/letsgrowmore2.png",
     iconBg: "#E6DEDD",
     date: "February 2023 - March 2023",
     points: [

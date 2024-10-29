@@ -19,7 +19,7 @@ const techVariants = [
   "Languages",
   "Frameworks",
   "Libraries",
-  "Databases",
+  "Web Dev",
   "Tools",
   "Environments",
 ];
