@@ -31,7 +31,7 @@ function ProjectCard({
         tiltMaxAngleX="10"
         tiltMaxAngleY="10"
         className="dark:bg-bgSecondaryDark bg-bgSecondaryLight p-5 rounded-2xl sm:w-[370px] w-full h-fit min-h-[590px] shadow-sm shadow-primary"
-      >
+      >     
         <div className="relative w-full h-[230px]">
           <div className="w-full h-full object-cover rounded-2xl relative">
             <Image
@@ -107,9 +107,9 @@ function Works() {
           viewport={{ once: true, amount: 0.25 }}
         >
           These projects showcase my practical skills and experience, each with
-          descriptions and links to code repositories and live demos. They
-          demonstrate my ability to handle complex challenges, adapt to
-          different technologies, and oversee projects from start to finish.
+          descriptions and links to code repositories. They demonstrate my
+          work on updated technologies, and research work on different projects.
+          Faced many challenges and tailored a strategic plan to overcome them.
         </motion.p>
       </div>
 
