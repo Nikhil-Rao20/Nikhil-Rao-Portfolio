@@ -40,6 +40,7 @@ function About() {
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
+        
         <div className="w-fit break-words">
           <Link
             href="mailto:nikhil01446@gmail.com"
