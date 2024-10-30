@@ -9,6 +9,7 @@ import FreelancerIcon from "./../public/assets/icons/freelance.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
 import FullStackIcon from "./../public/assets/icons/full-stack.svg";
 
+
 const navLinks = [
   {
     id: "about",
@@ -315,167 +316,212 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FigPro",
+    name: "ZOYA",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "ZOYA is a humanoid Robot which can talk and have a conversation with university students. Can help students with their career guidance, fun talks and little chit chat. This is built using Python, Generative AI, Langchain, SpeechSynthesis and OpenAI. Furtherly we deployed into a Raspberry Pi board and made it portable. This project was made for Teckzite 2024, RGUKT Nuzvid and we made it to Top 2. I learned many ascepts of developing a real world application and deploying into Raspberr Pi.",
     tags: [
       {
-        name: "typescript",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "generative-ai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "openai",
         color: "pink-text-gradient",
       },
       {
-        name: "fabricjs",
+        name: "langchain",
         color: "orange-text-gradient",
       },
       {
-        name: "liveblocks",
+        name: "speech-synthesis",
         color: "yellow-text-gradient",
       },
+      {
+        name : "raspberry-pi",
+        color : "blue-text-gradient"
+      },
+      {
+        name : "TOP2",
+        color: "green-text-gradient"
+      }
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/zoya-working.JPG",
+    source_code_link: "https://github.com/Nikhil-Rao20/ZOYA",
+    deployed_link: "https://github.com/Nikhil-Rao20/ZOYA",
   },
   {
-    name: "GDSC Website",
+    name: "Hand Sign Detection for Deaf and Dumb",
     description:
-      "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+      "Hand Sign Detection project is for those who are unfortunately deaf and dumb. This project is to normalize their inability of communication so that they can get more further oppurtunities in their life. This can recognize the letters shown to camera and forms a full sentence with auto-complete feature and words recommendation. This project is built using Python, OpenCV, TensorFlow, Keras, Mediapipe and Front Web Development. Acheived a high accuracy of 98.2% for all the letters and deployed into a webpage for interface. This project was a part of Intel Group and Awiros Computer Vision Appathon 2.0 and I made it to the Semi-finals.",
     tags: [
       {
-        name: "next.js",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "styled-components",
+        name: "opencv",
         color: "green-text-gradient",
       },
       {
-        name: "three.js",
+        name: "tensorflow",
         color: "pink-text-gradient",
       },
       {
-        name: "prisma",
+        name: "keras",
         color: "orange-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "mediapipe",
         color: "yellow-text-gradient",
       },
+      {
+        name: "front-end",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SEMI-FINALIST",
+        color: "green-text-gradient"
+      }
     ],
-    image: "/assets/projects/gdsc-website.png",
-    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://gdscmvjce.vercel.app/",
+    image: "/assets/projects/handsign.png",
+    source_code_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
+    deployed_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
   },
   {
-    name: "Facility Management System",
+    name: "AI powered Calculator",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "An interactive AI-powered calculator designed to solve complex mathematical and physics questions directly from handwritten or drawn inputs. With a user-friendly interface, simply write your question and hit the Calculate button to get precise answers instantly. Perfect for tackling equations and scientific problems with ease. This project was made using ReactJs, NextJs, HTML, CSS, JS, Python, Gemini Model and Image processing.",
     tags: [
       {
-        name: "typescript",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "html",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "css",
         color: "orange-text-gradient",
       },
       {
-        name: "tanstack/react-query",
+        name: "js",
         color: "yellow-text-gradient",
       },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gemini-model",
+        color: "green-text-gradient"
+      }
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/ai-cal.png",
     source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
+      "https://github.com/Nikhil-Rao20/AI-Calculator",
     deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://github.com/Nikhil-Rao20/AI-Calculator",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
+  {
+    name: "Video-GPT",
+    description:
+      "Welcome to the Video GPT, which made a win in the Parabola9 Hackathon. This project focuses on video caption generation using advanced models and techniques to process videos efficiently. Our system is built to handle large video files by reducing and eliminating redundant frames, leveraging models like InternV2, and generating summarized text from the remaining frames.Frame Reduction: Efficiently reduces the number of frames in a video to optimize processing time. Redundant Frame Elimination: Identifies and removes frames that do not add value to the video's context. InternV2 Model: Utilizes the InternV2 model for redundant frame analysis and processing. Text Summarization: Automatically generates text summaries from the optimized video frames.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "aws",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "internvl2",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "green-text-gradient"
+      },
+      {
+        name: "TOP1",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "/assets/projects/videogpt.jpg",
+    source_code_link: "https://github.com/jayanth119/The-Challangers",
+    deployed_link: "https://github.com/jayanth119/The-Challangers",
+  },
+  {
+    name: "University Website",
+    description:
+      "This project is a univeristy website, where recent styled techniques with unique style designing was used. This is made using html, css, javascript, bootstrap and jquerry. This project me taught a lot more about styling, designing and web development.",
+    tags: [
+      {
+        name: "html #css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jquerry",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/univer-website.png",
+    source_code_link: "https://github.com/jayanth119/The-Challangers",
+    deployed_link: "https://github.com/jayanth119/The-Challangers",
+  },
+  {
+  	name: "Crop Managment System",
+  	description:
+  		"This project leverages machine learning to recommend optimal crops based on atmospheric and geographical data, helping farmers make informed choices. It includes a crop disease detection system that identifies plant diseases from leaf images, enabling precise diagnosis. Additional features like a chatbot enhance user interaction, while farmers and merchants can connect and collaborate, with merchants able to promote their businesses on the platform. These AI-driven tools aim to support decision-making, boost crop yields, and foster a collaborative agricultural community.",
+  	tags: [
+  		{
+  			name: "reactjs",
+  			color: "blue-text-gradient"
+  		},
+  		{
+  			name: "flask",
+  			color: "green-text-gradient"
+  		},
+  		{
+  			name: "python",
+  			color: "pink-text-gradient"
+  		},
+      {
+  			name: "deeplearning",
+  			color: "blue-text-gradient"
+  		},
+  		{
+  			name: "machinelearning",
+  			color: "green-text-gradient"
+  		},
+  		{
+  			name: "streamlit",
+  			color: "pink-text-gradient"
+  		}
+  	],
+  	image: "/assets/projects/crop-mang.png",
+  	source_code_link: "#",
+  	deployed_link: "#"
+  }
 ];
 
 const socials = [

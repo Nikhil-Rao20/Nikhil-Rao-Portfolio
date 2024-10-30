@@ -18,7 +18,7 @@ function ProjectCard({
   source_code_link,
   deployed_link,
 }) {
-  const CHAR_LIMIT = 280;
+  const CHAR_LIMIT = 250;
 
   return (
     <motion.div
@@ -30,7 +30,7 @@ function ProjectCard({
       <Tilt
         tiltMaxAngleX="10"
         tiltMaxAngleY="10"
-        className="dark:bg-bgSecondaryDark bg-bgSecondaryLight p-5 rounded-2xl sm:w-[370px] w-full h-fit min-h-[590px] shadow-sm shadow-primary"
+        className="dark:bg-bgSecondaryDark bg-bgSecondaryLight p-5 rounded-2xl sm:w-[370px] w-full h-fit min-h-[450px] shadow-sm shadow-primary"
       >     
         <div className="relative w-full h-[230px]">
           <div className="w-full h-full object-cover rounded-2xl relative">
