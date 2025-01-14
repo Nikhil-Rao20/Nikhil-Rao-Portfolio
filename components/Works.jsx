@@ -134,7 +134,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/navigation";
 
-import { projects, articles } from "../constants";
+import { projects, researchProjects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import truncateText from "@/utils/truncate";
 import GithubLogo from "./../public/assets/icons/github.svg";
@@ -221,12 +221,12 @@ function Works() {
     <section className="xl:my-36 md:mx-36 p-8" id="projects">
       <div>
         <p className="sectionSubText">My work</p>
-        <h2 className="sectionHeadText">Projects</h2>
+        <h2 className="sectionHeadText"> Research Projects</h2>
       </div>
 
       <div className="w-full flex">
         <p className="mt-3 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[17px] max-w-3xl leading-[30px]">
-          These projects showcase my practical skills and experience, with links to code repositories and deployed projects.
+          These are few research oriented projects, these showcases my research capabilities in Medical Image Analysis and Computer Vision
         </p>
       </div>
 
@@ -269,14 +269,72 @@ function Works() {
             },
           }}
         >
+          <div className="mt-10"></div>
+          {researchProjects.map((project, index) => (
+            <SwiperSlide key={`project-${index}`}>
+              <ProjectCard {...project} />
+            </SwiperSlide>
+          ))}
+          <div className="mt-10"></div>
+        </Swiper>
+      </div>
+      <div>
+        <h2 className="sectionHeadText">Application Projects</h2>
+      </div>
+      <div className="w-full flex">
+        <p className="mt-3 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[17px] max-w-3xl leading-[30px]">
+          These projects showcase my practical skills and experience, in application oriented projects.
+        </p>
+      </div>
+      <div className="md:mt-20 mt-10">
+        <Swiper
+          effect="coverflow"
+          grabCursor={true}
+          slidesPerView={3}  // Number of cards visible at once
+          spaceBetween={30}  // Space between cards
+          loop={false}
+          centeredSlides={true}
+          navigation={true}
+          modules={[EffectCoverflow, Navigation]}
+          className="mySwiper"
+          breakpoints={{
+            300: {
+              slidesPerView: 1, // Only 1 card visible per slide for mobile
+              spaceBetween: 0,  // No space between slides
+            },
+            400: {
+              slidesPerView: 1, // Only 1 card visible per slide for mobile
+              spaceBetween: 0,  // No space between slides
+            },
+            500: {
+              slidesPerView: 1, // Only 1 card visible per slide for mobile
+              spaceBetween: 0,  // No space between slides
+            },
+            640: {
+              slidesPerView: 1, // Only 1 card visible per slide for mobile
+              spaceBetween: 0,  
+            },
+            768: {
+              slidesPerView: 1, // 2 slides visible on tablet
+              spaceBetween: 0, // Medium gap between slides on tablet
+            },
+            1024: {
+              slidesPerView: 3, // 3 slides visible on larger screens
+              spaceBetween: 40, // Space between slides on larger screens
+            },
+          }}
+        >
+          <div className="mt-10"></div>
           {projects.map((project, index) => (
             <SwiperSlide key={`project-${index}`}>
               <ProjectCard {...project} />
             </SwiperSlide>
           ))}
+          <div className="mt-10"></div>
         </Swiper>
       </div>
     </section>
+    
   );
 }
 
