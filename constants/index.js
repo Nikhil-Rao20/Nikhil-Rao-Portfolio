@@ -39,7 +39,7 @@ const services = [
     icon: <FrontendIcon />,
   },
   {
-    title: "Machine Learning",
+    title: "Medical Image Analysis",
     icon: <FullStackIcon />,
   },
   {
@@ -49,11 +49,7 @@ const services = [
   {
     title: "Computer Vision",
     icon: <FreelancerIcon />,
-  },
-  {
-    title: "Generative AI Applications",
-    icon: <BackendIcon />,
-  },
+  }
 ];
 
 const technologies = {
@@ -253,22 +249,24 @@ const experiences = [
     icon: "/assets/company/freelancer.png",
     iconBg: "#E6DEDD",
     date: "March 2024 - April 2024",
+    year: 2024,
     points: [
-      "I have developed and implemented LocusChat, a generative AI project designed for customer interaction in hotels, restaurants, and clinics",
-      "This involved creating an intelligent system capable of handling customer inquiries and providing prompt, accurate responses",
-      "My responsibilities included designing the AI architecture, training models, integrating the system with various platforms, and ensuring seamless user experience",
-    ],
+      "Built LocusChat, a generative AI for customer interaction",
+      "Designed, trained, and integrated the system",
+      "Ensured seamless user experience",
+     ],
   },
   {
     title: "GDSC AI/ML Lead",
     company_name: "Google Developer Student Clubs RGUKT Nuzvid",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
+    year:2023,
     date: "August 2023 - September 2024",
     points: [
-      "Responsible for raising awareness about trending AI technologies at my university",
-      "I was selected for this role due to my skills and problem-solving abilities, outshining many competitors",
-      "I motivate and support students interested in AI/ML as part of my open-source contributions",
+      "Raised awareness about AI technologies",
+      "Selected for skills and problem-solving abilities",
+      "Motivated and supported AI/ML students",
     ],
   },
   {
@@ -276,13 +274,26 @@ const experiences = [
     company_name: "LetsGrowMore",
     icon: "/assets/company/letsgrowmore2.png",
     iconBg: "#E6DEDD",
+    year:2023,
     date: "February 2023 - March 2023",
     points: [
-      "Conducted Exploratory Data Analysis to uncover crucial insights",
-      "Performed Feature Engineering and Selection for model-ready datasets",
-      "Developed CNN models for recognizing mathematical characters and equations, a mood-based song suggestion model",
-      "Developed UI prototype for a House Price Prediction project",
-      "Major contributor to these projects, earning a Letter of Recommendation from the company",
+      "Performed EDA, Feature Engineering and Selection",
+      "Developed CNN models for character recognition",
+      "Developed UI prototype for House Price Prediction",
+      "Earned a Letter of Recommendation",
+    ],
+  },
+  {
+    title: "AI Engineer",
+    company_name: "Parabola9",
+    icon: "/assets/company/parabola9.png",
+    iconBg: "#E6DEDD",
+    date: "December 2024 - Current",
+    year: 2024,
+    points: [
+      "Worked on Video Captioning models for Traffic Accidents",
+      "Automatic Recognition of Attendance through OCR"
+      
     ],
   },
 ];
@@ -473,7 +484,7 @@ const researchProjects = [
       }
       
     ],
-    image: "/assets/projects/zoya-working.JPG",
+    image: "/assets/projects/mlp_mixer.jpeg",
     source_code_link: "https://github.com/Nikhil-Rao20/ZOYA",
     deployed_link: "https://github.com/Nikhil-Rao20/ZOYA",
   },
@@ -494,7 +505,7 @@ const researchProjects = [
         color: "green-text-gradient"
       }
     ],
-    image: "/assets/projects/handsign.png",
+    image: "/assets/projects/thyroid.jpg",
     source_code_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
     deployed_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
   },
@@ -516,7 +527,7 @@ const researchProjects = [
         color: "green-text-gradient"
       }
     ],
-    image: "/assets/projects/ai-cal.png",
+    image: "/assets/projects/casuality.png",
     source_code_link:
       "https://github.com/Nikhil-Rao20/AI-Calculator",
     deployed_link:
@@ -540,7 +551,7 @@ const researchProjects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "/assets/projects/videogpt.jpg",
+    image: "/assets/projects/zeroshot.png",
     source_code_link: "https://github.com/jayanth119/The-Challangers",
     deployed_link: "https://github.com/jayanth119/The-Challangers",
   },
@@ -562,7 +573,7 @@ const researchProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/univer-website.png",
+    image: "/assets/projects/cardiolens.gif",
     source_code_link: "https://github.com/jayanth119/The-Challangers",
     deployed_link: "https://github.com/jayanth119/The-Challangers",
   },
@@ -584,7 +595,7 @@ const researchProjects = [
   			color: "blue-text-gradient"
   		},
   	],
-  	image: "/assets/projects/crop-mang.png",
+  	image: "/assets/projects/yolobackbone.png",
   	source_code_link: "#",
   	deployed_link: "#"
   },
@@ -602,7 +613,7 @@ const researchProjects = [
   			color: "green-text-gradient"
   		},
   	],
-  	image: "/assets/projects/crop-mang.png",
+  	image: "/assets/projects/dgyolo.png",
   	source_code_link: "#",
   	deployed_link: "#"
   }
