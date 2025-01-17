@@ -31,6 +31,11 @@ const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "achievements",
+    title:"Achievements",
+  },
+  
 ];
 
 const services = [
@@ -278,7 +283,6 @@ const experiences = [
     date: "February 2023 - March 2023",
     points: [
       "Performed EDA, Feature Engineering and Selection",
-      "Developed CNN models for character recognition",
       "Developed UI prototype for House Price Prediction",
       "Earned a Letter of Recommendation",
     ],
@@ -466,8 +470,7 @@ const projects = [
 const researchProjects = [
   {
     name: "Comparative Analysis of MLP-Mixer and CNN Models for OCT Images",
-    description:
-      "This project focuses on evaluating the performance of MLP-Mixer and CNN-based models in the classification of OCT images based on other comparison techniques other than the traditional ones. By experimenting with various loss functions, the study aims to identify the optimal combinations that enhance model accuracy and robustness. This research provides a detail experimentation results in the terms of uncertainty and confidence and calibration error, providing insights into the suitability of MLP-Mixer architectures for medical image analysis compared to traditional CNNs.",
+    description:"The project evaluates MLP-Mixer and CNN models for OCT image classification, exploring loss functions and calibration metrics to enhance accuracy, robustness, and insights into their medical imaging suitability.",
     tags: [
       
       {
@@ -490,7 +493,7 @@ const researchProjects = [
   },
   {
     name: "Liver and Thyroid Nodule Segmentation Comparative Analysis",
-    description: "This project is a complete analysis of UNet family and Modified UNet on Liver and Thyroid Nodule Segmentation with better loss functions, and proposing new loss function and providing the best combinations. We also provide a uncertainty based quantification of the model performance.",
+    description: "The project analyzes UNet and Modified UNet for Liver and Thyroid Segmentation, proposes new loss functions, identifies optimal combinations, and includes uncertainty-based performance quantification.",
         tags: [
       {
         name: "liver",
@@ -619,7 +622,6 @@ const researchProjects = [
   }
 ];
 
-
 const socials = [
   {
     id: "github",
@@ -660,6 +662,63 @@ const heroTexts = [
   500,
 ];
 
+const achievementsData = [
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/ai-cal.png",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/ai-cal.png","/assets/projects/casuality.png","/assets/projects/fig-pro.png",]
+  },
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/mlp_mixer.jpeg",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+  },
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/mlp_mixer.jpeg",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+  },
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/mlp_mixer.jpeg",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+  },
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/mlp_mixer.jpeg",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+  },
+  {
+    achievement: "AI/ML Professional Certification",
+    position: "Certified with Distinction",
+    year: "2024",
+    picture: "/assets/projects/mlp_mixer.jpeg",
+    location: "Pune, India",
+    organization: "DRDO-DIAT",
+    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+  },
+];
+
 export {
   navLinks,
   services,
@@ -670,4 +729,5 @@ export {
   researchProjects,
   socials,
   heroTexts,
+  achievementsData,
 };

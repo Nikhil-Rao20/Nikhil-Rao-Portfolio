@@ -380,8 +380,8 @@ function ProjectCard({
       viewport={{ once: true, amount: 0.25 }}
     >
       <Tilt
-        tiltMaxAngleX={10}
-        tiltMaxAngleY={10}
+        tiltMaxAngleX={5}
+        tiltMaxAngleY={5}
         className={`${
           type === "application"
             ? "dark:bg-blue-950 bg-cyan-50"
@@ -480,11 +480,13 @@ function Works() {
             1024: { slidesPerView: 3, spaceBetween: 40 },
           }}
         >
+          
           {researchProjects.map((project, index) => (
             <SwiperSlide key={`project-${index}`}>
               <ProjectCard {...project} type="research" />
             </SwiperSlide>
           ))}
+          <div className="mt-10"></div>
         </Swiper>
       </div>
 
