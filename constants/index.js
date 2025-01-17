@@ -376,6 +376,28 @@ const projects = [
     deployed_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
   },
   {
+    name: "STAWS",
+    description:
+    "Smart Traffic Alert Watching System (STAWS) is a complete end to end automated solution for accident monitoring and reporting system, with police administration being the main target. This used Video captioning, Sentimental analysis, Reporting System and Enhanced Route Mapping. We also add customer sector where we provide the route mapping option, accident reporting to nearerst location so that they can skip that route and also a option to report accident that they see.",
+    tags: [
+      {
+        name: "video-captioning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "avishkar-2024",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "traffic-alerts",
+        color: "green-text-gradient"
+      }
+    ],
+    image: "/assets/projects/staws.gif",
+    source_code_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
+    deployed_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
+  },
+  {
     name: "AI powered Calculator",
     description:
       "An interactive AI-powered calculator designed to solve complex mathematical and physics questions directly from handwritten or drawn inputs. With a user-friendly interface, simply write your question and hit the Calculate button to get precise answers instantly. Perfect for tackling equations and scientific problems with ease. This project was made using ReactJs, NextJs, HTML, CSS, JS, Python, Gemini Model and Image processing.",
@@ -469,6 +491,28 @@ const projects = [
 
 const researchProjects = [
   {
+    name: "CardioLens - Automated Cardiovascular Disease Detection",
+    description:
+    "Our project uses AI to automate echocardiogram analysis with Intel’s DPT Large model, achieving a 0.795 dice score. It segments the left ventricle, calculates ejection fraction, and provides disease predictions via a web interface, streamlining diagnostics and supporting clinicians effectively.",
+    tags: [
+      {
+        name: "echo-cardiogram",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IIT-KGP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TOP3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/cardiolens.gif",
+    source_code_link: "https://github.com/jayanth119/The-Challangers",
+    deployed_link: "https://github.com/jayanth119/The-Challangers",
+  },
+  {
     name: "Comparative Analysis of MLP-Mixer and CNN Models for OCT Images",
     description:"The project evaluates MLP-Mixer and CNN models for OCT image classification, exploring loss functions and calibration metrics to enhance accuracy, robustness, and insights into their medical imaging suitability.",
     tags: [
@@ -490,6 +534,28 @@ const researchProjects = [
     image: "/assets/projects/mlp_mixer.jpeg",
     source_code_link: "https://github.com/Nikhil-Rao20/ZOYA",
     deployed_link: "https://github.com/Nikhil-Rao20/ZOYA",
+  },
+  {
+  	name: "Enhanced YOLOv8 with CNN, Transformer and Mamba based Backbones",
+  	description:
+    "Redesigned YOLOv8 by replacing the Darknet backbone with condition-based Transformers and Vision Mamba models. Despite the innovations, the original backbone outperformed alternatives in mAP vs. parameters. This project, fully coded and mathematically optimized, highlights the efficiency of the vanilla architecture and showcases my problem-solving and analytical skills.",
+  	tags: [
+  		{
+  			name: "yolov8",
+  			color: "blue-text-gradient"
+  		},
+  		{
+  			name: "transformer",
+  			color: "green-text-gradient"
+  		},
+      {
+  			name: "architecture",
+  			color: "blue-text-gradient"
+  		},
+  	],
+  	image: "/assets/projects/yolobackbone.png",
+  	source_code_link: "#",
+  	deployed_link: "#"
   },
   {
     name: "Liver and Thyroid Nodule Segmentation Comparative Analysis",
@@ -559,50 +625,6 @@ const researchProjects = [
     deployed_link: "https://github.com/jayanth119/The-Challangers",
   },
   {
-    name: "CardioLens - Automated Cardiovascular Disease Detection",
-    description:
-    "Our project uses AI to automate echocardiogram analysis with Intel’s DPT Large model, achieving a 0.795 dice score. It segments the left ventricle, calculates ejection fraction, and provides disease predictions via a web interface, streamlining diagnostics and supporting clinicians effectively.",
-    tags: [
-      {
-        name: "echo-cardiogram",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "IIT-KGP",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TOP3",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/assets/projects/cardiolens.gif",
-    source_code_link: "https://github.com/jayanth119/The-Challangers",
-    deployed_link: "https://github.com/jayanth119/The-Challangers",
-  },
-  {
-  	name: "Enhanced YOLOv8 with CNN, Transformer and Mamba based Backbones",
-  	description:
-    "Redesigned YOLOv8 by replacing the Darknet backbone with condition-based Transformers and Vision Mamba models. Despite the innovations, the original backbone outperformed alternatives in mAP vs. parameters. This project, fully coded and mathematically optimized, highlights the efficiency of the vanilla architecture and showcases my problem-solving and analytical skills.",
-  	tags: [
-  		{
-  			name: "yolov8",
-  			color: "blue-text-gradient"
-  		},
-  		{
-  			name: "transformer",
-  			color: "green-text-gradient"
-  		},
-      {
-  			name: "architecture",
-  			color: "blue-text-gradient"
-  		},
-  	],
-  	image: "/assets/projects/yolobackbone.png",
-  	source_code_link: "#",
-  	deployed_link: "#"
-  },
-  {
   	name: "Updating Domain Generalization with YOLO Architecture Evolution",
   	description:
     "This project focuses on domain generalization by evolving the YOLOv3 model architecture into YOLOv8, incorporating domain-specific logic and improvements. I developed and optimized custom architectures for YOLOv5, YOLOv8, and YOLOv10, enhancing the model’s ability to generalize across different domains. By coding the entire framework from scratch, I successfully improved performance and achieved superior results, showcasing my expertise in architecture design and advanced computer vision techniques.",
@@ -664,58 +686,94 @@ const heroTexts = [
 
 const achievementsData = [
   {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
+    achievement: "Intel AI Hackathon @ IEEE Indicon",
+    position: "2nd Runner UP",
     year: "2024",
-    picture: "/assets/projects/ai-cal.png",
-    location: "Pune, India",
-    organization: "DRDO-DIAT",
-    pictures: ["/assets/projects/ai-cal.png","/assets/projects/casuality.png","/assets/projects/fig-pro.png",]
+    picture: "/assets/achivs/intel-2.jpg",
+    location: "Kharagpur, West Bengal",
+    organization: "Intel AI and IEEE Indicon 2024",
+    pictures: ["/assets/achivs/intel-2.jpg","/assets/achivs/intel-1.jpg","/assets/achivs/intel-3.jpg","/assets/achivs/intel-6.jpg","/assets/achivs/intel-4.jpg","/assets/achivs/intel-5.jpg",]
   },
   {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
+    achievement: "Multimodal AI4TB Challenge, SNU-H",
+    position: "Top 22",
     year: "2024",
+    picture: "/assets/achivs/maic-2.jpeg",
+    location: "Seoul, South Korea",
+    organization: "Seoul National University - Hospital",
+    pictures: ["/assets/achivs/maic-2.jpeg","/assets/achivs/maic-3.png","/assets/achivs/maic-1.jpg",]
+  },
+  {
+    achievement: "Idea and Innovation by Indian Army",
+    position: "Top 20",
+    year: "2024",
+    picture: "/assets/achivs/ncc-3.jpg",
+    location: "Delhi, India",
+    organization: "NCC, Indian Army",
+    pictures: ["/assets/achivs/ncc-3.jpg","/assets/achivs/ncc-1.jpg","/assets/achivs/ncc-4.jpg","/assets/achivs/ncc-2.jpg",]
+  },
+  {
+    achievement: "ProjectExpo, Teckzite 2024",
+    position: "Top 2",
+    year: "2024",
+    picture: "/assets/achivs/zoya-1.JPG",
+    location: "Nuzvid, Andhra Pradesh",
+    organization: "RGUKT Nuzvid",
+    pictures: ["/assets/achivs/zoya-1.JPG","/assets/achivs/zoya-2.JPG","/assets/achivs/zoya-3.jpeg","/assets/achivs/zoya-4.jpeg","/assets/achivs/zoya-5.jpeg","/assets/achivs/zoya-6.jpeg","/assets/achivs/zoya-7.jpeg","/assets/achivs/zoya-8.jpeg",]
+  },
+  {
+    achievement: "Parabola9 Hackathon",
+    position: "Top 1",
+    year: "2024",
+    picture: "/assets/achivs/parabola-1.jpg",
+    location: "Nuzvid, Andhra Pradesh",
+    organization: "RGUKT Nuzvid",
+    pictures: ["/assets/achivs/parabola-1.jpg","/assets/achivs/parabola-2.jpg","/assets/achivs/parabola-3.jpg",]
+  },
+  {
+    achievement: "Blogathon 49 by Analytics Vidhya",
+    position: "Top 1",
+    year: "2024",
+    picture: "/assets/achivs/blog-3.png",
+    location: "Gurugram, Haryana",
+    organization: "Analytics Vidhya",
+    pictures: ["/assets/achivs/blog-3.png","/assets/achivs/blog-2.jpeg","/assets/achivs/bloga-1.jpeg",]
+  },
+  {
+    achievement: "Hackfest 2.0, CMR College",
+    position: "Finalist",
+    year: "2024",
+    picture: "/assets/achivs/cmr-2.jpeg",
+    location: "Hyderabad, India",
+    organization: "CMR College, Hyderabad",
+    pictures: ["/assets/achivs/cmr-2.jpeg","/assets/achivs/cmr-1.jpeg","/assets/achivs/cmr-3.jpeg","/assets/achivs/cmr-4.jpeg",]
+  },
+  {
+    achievement: "CV Appathon 2.0 by Intel and Awiros",
+    position: "Semi-Finalist",
+    year: "2023",
     picture: "/assets/projects/mlp_mixer.jpeg",
-    location: "Pune, India",
-    organization: "DRDO-DIAT",
+    location: "Bengaluru, India",
+    organization: "Intel and Awiros",
     pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
   },
   {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
-    year: "2024",
-    picture: "/assets/projects/mlp_mixer.jpeg",
+    achievement: "AI/ML Professional by DIAT-DRDO, India",
+    position: "Certified Professional (Special seat)",
+    year: "2023",
+    picture: "/assets/achivs/drdo-1.png",
     location: "Pune, India",
-    organization: "DRDO-DIAT",
-    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+    organization: "DIAT-Pune and DRDO",
+    pictures: ["/assets/achivs/drdo-1.png","/assets/achivs/drdo-3.png",]
   },
   {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
-    year: "2024",
-    picture: "/assets/projects/mlp_mixer.jpeg",
-    location: "Pune, India",
-    organization: "DRDO-DIAT",
-    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
-  },
-  {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
-    year: "2024",
-    picture: "/assets/projects/mlp_mixer.jpeg",
-    location: "Pune, India",
-    organization: "DRDO-DIAT",
-    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
-  },
-  {
-    achievement: "AI/ML Professional Certification",
-    position: "Certified with Distinction",
-    year: "2024",
-    picture: "/assets/projects/mlp_mixer.jpeg",
-    location: "Pune, India",
-    organization: "DRDO-DIAT",
-    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+    achievement: "Scientia, The Project Expo",
+    position: "Top 2",
+    year: "2022",
+    picture: "/assets/achivs/scientia-1.jpg",
+    location: "Nuzvid, India",
+    organization: "RGUKT Nuzvid",
+    pictures: ["/assets/achivs/scientia-1.jpg","/assets/achivs/scientia-2.jpg",]
   },
 ];
 

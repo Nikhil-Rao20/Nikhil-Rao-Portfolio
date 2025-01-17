@@ -74,7 +74,8 @@ const Achievements = () => {
                                 <h3 className="text-lg font-semibold text-gray-800">
                                     {achievement.achievement}
                                 </h3>
-                                <p className="text-sm text-gray-500">{achievement.year}</p>
+                                <p className="text-sm text-gray-500">Position : {achievement.position}</p>
+                                <p className="text-sm text-gray-500">Year : {achievement.year}</p>
                                 <button
                                     onClick={() => handleReadMore(achievement)}
                                     className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
