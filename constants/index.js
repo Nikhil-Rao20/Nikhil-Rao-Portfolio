@@ -309,7 +309,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "/assets/avatar.png",
   },
   {
     testimonial:
@@ -317,7 +317,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "/assets/avatar.png",
   },
   {
     testimonial:
@@ -325,7 +325,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "/assets/avatar.png",
   },
 ];
 
@@ -752,10 +752,10 @@ const achievementsData = [
     achievement: "CV Appathon 2.0 by Intel and Awiros",
     position: "Semi-Finalist",
     year: "2023",
-    picture: "/assets/projects/mlp_mixer.jpeg",
+    picture: "/assets/projects/handsign.png",
     location: "Bengaluru, India",
     organization: "Intel and Awiros",
-    pictures: ["/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png","/assets/projects/yolobackbone.png",]
+    pictures: ["/assets/projects/handsign.png",]
   },
   {
     achievement: "AI/ML Professional by DIAT-DRDO, India",
