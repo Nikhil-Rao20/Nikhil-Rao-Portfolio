@@ -14,7 +14,7 @@ const TravelGallery = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 800,
-    pauseOnHover: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
