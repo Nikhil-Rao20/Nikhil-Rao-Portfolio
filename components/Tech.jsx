@@ -28,13 +28,7 @@ function Tech() {
   const languages = tech.map((technology, index) => (
     <div className="w-full h-fit flex gap-2 md:flex-row flex-col" key={index}>
       <h3 className="md:hidden">{techVariants[index]}</h3>
-      <motion.div
-        className="w-full flex flex-row flex-wrap gap-2"
-        variants={fadeIn("right", "spring", 0.75)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
-      >
+      
         {technology.map((tech, index) => (
           <Link
             href={tech.link}
@@ -56,7 +50,6 @@ function Tech() {
             </div>
           </Link>
         ))}
-      </motion.div>
     </div>
   ));
 

@@ -4,9 +4,9 @@ import { fadeIn } from "@/utils/motion";
 
 function ServiceCard({ index, title, icon }) {
   return (
-    <Tilt className="w-[250px]" tiltMaxAngleX="10" tiltMaxAngleY="10">
+    <Tilt className="w-[250px]" tiltMaxAngleX="7" tiltMaxAngleY="7">
       <motion.div
-        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        variants={fadeIn("right", "spring", index * 0.2, 0.5)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}

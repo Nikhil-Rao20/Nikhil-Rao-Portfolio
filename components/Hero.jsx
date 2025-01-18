@@ -57,7 +57,7 @@ function Hero({ loading, isMobile }) {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 0.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}

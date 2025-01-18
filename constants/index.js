@@ -333,21 +333,20 @@ const projects = [
   {
     name: "ZOYA",
     description:
-      "ZOYA is a humanoid Robot which can talk and have a conversation with university students. Can help students with their career guidance, fun talks and little chit chat. This is built using Python, Generative AI, Langchain, SpeechSynthesis and OpenAI. Furtherly we deployed into a Raspberry Pi board and made it portable. This project was made for Teckzite 2024, RGUKT Nuzvid and we made it to Top 2. I learned many ascepts of developing a real world application and deploying into Raspberr Pi.",
+    "ZOYA is a humanoid Robot which can talk and have a conversation with university students. Can help students with their career guidance, fun talks and little chit chat. This is built using Python, Generative AI, Langchain, SpeechSynthesis and OpenAI. Furtherly we deployed into a Raspberry Pi board and made it portable. This project was made for Teckzite 2024, RGUKT Nuzvid and we made it to Top 2. I learned many ascepts of developing a real world application and deploying into Raspberr Pi.",
     tags: [
-      
       {
         name: "langchain",
         color: "orange-text-gradient",
       },
       {
-        name : "raspberry-pi",
-        color : "blue-text-gradient"
+        name: "raspberry-pi",
+        color: "blue-text-gradient",
       },
       {
-        name : "TOP2",
-        color: "green-text-gradient"
-      }
+        name: "TOP2",
+        color: "green-text-gradient",
+      },
     ],
     image: "/assets/projects/zoya-working.JPG",
     source_code_link: "https://github.com/Nikhil-Rao20/ZOYA",
@@ -356,7 +355,7 @@ const projects = [
   {
     name: "Hand Sign Detection for Deaf and Dumb",
     description:
-      "Hand Sign Detection project is for those who are unfortunately deaf and dumb. This project is to normalize their inability of communication so that they can get more further oppurtunities in their life. This can recognize the letters shown to camera and forms a full sentence with auto-complete feature and words recommendation. This project is built using Python, OpenCV, TensorFlow, Keras, Mediapipe and Front Web Development. Acheived a high accuracy of 98.2% for all the letters and deployed into a webpage for interface. This project was a part of Intel Group and Awiros Computer Vision Appathon 2.0 and I made it to the Semi-finals.",
+    "Hand Sign Detection project is for those who are unfortunately deaf and dumb. This project is to normalize their inability of communication so that they can get more further oppurtunities in their life. This can recognize the letters shown to camera and forms a full sentence with auto-complete feature and words recommendation. This project is built using Python, OpenCV, TensorFlow, Keras, Mediapipe and Front Web Development. Acheived a high accuracy of 98.2% for all the letters and deployed into a webpage for interface. This project was a part of Intel Group and Awiros Computer Vision Appathon 2.0 and I made it to the Semi-finals.",
     tags: [
       {
         name: "opencv",
@@ -368,8 +367,8 @@ const projects = [
       },
       {
         name: "SEMI-FINALIST",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: "/assets/projects/handsign.png",
     source_code_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
@@ -390,17 +389,17 @@ const projects = [
       },
       {
         name: "traffic-alerts",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: "/assets/projects/staws.gif",
-    source_code_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
-    deployed_link: "https://github.com/Nikhil-Rao20/ML_and_DL_Projects/tree/main/Sign%20Language%20Detection",
+    source_code_link: "https://github.com/jayanth119/avishkaar_trafficpulse",
+    deployed_link: "https://github.com/jayanth119/avishkaar_trafficpulse",
   },
   {
     name: "AI powered Calculator",
     description:
-      "An interactive AI-powered calculator designed to solve complex mathematical and physics questions directly from handwritten or drawn inputs. With a user-friendly interface, simply write your question and hit the Calculate button to get precise answers instantly. Perfect for tackling equations and scientific problems with ease. This project was made using ReactJs, NextJs, HTML, CSS, JS, Python, Gemini Model and Image processing.",
+    "An interactive AI-powered calculator designed to solve complex mathematical and physics questions directly from handwritten or drawn inputs. With a user-friendly interface, simply write your question and hit the Calculate button to get precise answers instantly. Perfect for tackling equations and scientific problems with ease. This project was made using ReactJs, NextJs, HTML, CSS, JS, Python, Gemini Model and Image processing.",
     tags: [
       {
         name: "reactjs",
@@ -412,19 +411,39 @@ const projects = [
       },
       {
         name: "gemini-model",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: "/assets/projects/ai-cal.png",
-    source_code_link:
-      "https://github.com/Nikhil-Rao20/AI-Calculator",
-    deployed_link:
-      "https://github.com/Nikhil-Rao20/AI-Calculator",
+    source_code_link: "https://github.com/Nikhil-Rao20/AI-Calculator",
+    deployed_link: "https://github.com/Nikhil-Rao20/AI-Calculator",
+  },
+  {
+    name: "SWETCHA",
+    description:
+      "SWETCHA is an automated solution for detecting workplace harassment using CCTV video analysis. Utilizes hand touching, face recognition, and scene classification to detect any harassment. If yes it would send a complete report to the POSH cell in company. This project is made for Idea and Innovation Challenge, Indian Army - NCC.",
+    tags: [
+      {
+        name: "computer-vision",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "INDIAN-ARMY",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Delhi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/assets/projects/swetcha.gif",
+    source_code_link: "#",
+    deployed_link: "#",
   },
   {
     name: "Video-GPT",
     description:
-      "Welcome to the Video GPT, which made a win in the Parabola9 Hackathon. This project focuses on video caption generation using advanced models and techniques to process videos efficiently. Our system is built to handle large video files by reducing and eliminating redundant frames, leveraging models like InternV2, and generating summarized text from the remaining frames.Frame Reduction: Efficiently reduces the number of frames in a video to optimize processing time. Redundant Frame Elimination: Identifies and removes frames that do not add value to the video's context. InternV2 Model: Utilizes the InternV2 model for redundant frame analysis and processing. Text Summarization: Automatically generates text summaries from the optimized video frames.",
+    "Welcome to the Video GPT, which made a win in the Parabola9 Hackathon. This project focuses on video caption generation using advanced models and techniques to process videos efficiently. Our system is built to handle large video files by reducing and eliminating redundant frames, leveraging models like InternV2, and generating summarized text from the remaining frames.Frame Reduction: Efficiently reduces the number of frames in a video to optimize processing time. Redundant Frame Elimination: Identifies and removes frames that do not add value to the video's context. InternV2 Model: Utilizes the InternV2 model for redundant frame analysis and processing. Text Summarization: Automatically generates text summaries from the optimized video frames.",
     tags: [
       {
         name: "aws",
@@ -432,7 +451,7 @@ const projects = [
       },
       {
         name: "streamlit",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "TOP1",
@@ -446,7 +465,7 @@ const projects = [
   {
     name: "University Website",
     description:
-      "This project is a univeristy website, where recent styled techniques with unique style designing was used. This is made using html, css, javascript, bootstrap and jquerry. This project me taught a lot more about styling, designing and web development.",
+    "This project is a univeristy website, where recent styled techniques with unique style designing was used. This is made using html, css, javascript, bootstrap and jquerry. This project me taught a lot more about styling, designing and web development.",
     tags: [
       {
         name: "html",
@@ -461,32 +480,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/univer-website.png",
-    source_code_link: "https://github.com/jayanth119/The-Challangers",
-    deployed_link: "https://github.com/jayanth119/The-Challangers",
+    image: "/assets/projects/university.gif",
+    source_code_link: "https://github.com/Nikhil-Rao20/Web_Development/tree/main/University_Website",
+    deployed_link: "https://uni-website-nikhil.netlify.app/",
   },
   {
-  	name: "Crop Managment System",
-  	description:
-  		"This project leverages machine learning to recommend optimal crops based on atmospheric and geographical data, helping farmers make informed choices. It includes a crop disease detection system that identifies plant diseases from leaf images, enabling precise diagnosis. Additional features like a chatbot enhance user interaction, while farmers and merchants can connect and collaborate, with merchants able to promote their businesses on the platform. These AI-driven tools aim to support decision-making, boost crop yields, and foster a collaborative agricultural community.",
-  	tags: [
-  		{
-  			name: "reactjs",
-  			color: "blue-text-gradient"
-  		},
-  		{
-  			name: "flask",
-  			color: "green-text-gradient"
-  		},
+    name: "Crop Management System",
+    description:
+    "This project leverages machine learning to recommend optimal crops based on atmospheric and geographical data, helping farmers make informed choices. It includes a crop disease detection system that identifies plant diseases from leaf images, enabling precise diagnosis. Additional features like a chatbot enhance user interaction, while farmers and merchants can connect and collaborate, with merchants able to promote their businesses on the platform. These AI-driven tools aim to support decision-making, boost crop yields, and foster a collaborative agricultural community.",
+    tags: [
       {
-  			name: "deeplearning",
-  			color: "blue-text-gradient"
-  		},
-  	],
-  	image: "/assets/projects/crop-mang.png",
-  	source_code_link: "#",
-  	deployed_link: "#"
-  }
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "deeplearning",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/crop-mang.png",
+    source_code_link: "#",
+    deployed_link: "#",
+  },
 ];
 
 const researchProjects = [
@@ -777,6 +796,145 @@ const achievementsData = [
   },
 ];
 
+const travelImages = [
+  {
+    url: "/assets/travel/araku.jpg",
+    location: 'Araku',
+    caption: 'Peaceful Green Hills'
+  },
+  {
+    url: "/assets/travel/araku_3.jpg",
+    location: 'Madagada Viewpoint, Araku',
+    caption: 'Iconic Pose'
+  },
+  {
+    url: "/assets/travel/araku_2.jpg",
+    location: 'Hills of Araku',
+    caption: 'Capture every moment'
+  },
+  {
+    url: "/assets/travel/rajamundry.jpg",
+    location: 'Rajamundry',
+    caption: 'Godavari River'
+  },
+  {
+    url: "/assets/travel/viza.jpg",
+    location: 'RK Beach, Vizag',
+    caption: 'Hail the sea'
+  },
+  {
+    url: "/assets/travel/bang.jpg",
+    location: 'Namma Metro, Benguluru',
+    caption: 'Ride the Future'
+  },
+  {
+    url: "/assets/travel/iisc_2.jpg",
+    location: 'IISC Banglore',
+    caption: 'Where Minds Soar'
+  },
+  {
+    url: "/assets/travel/cmr_hyd.jpg",
+    location: 'Hyderabad',
+    caption: 'Compete Learn Win'
+  },
+  {
+    url: "/assets/travel/thanjavur.jpg",
+    location: 'Thanjavur',
+    caption: 'Sprituality'
+  },
+  {
+    url: "/assets/travel/charminar.jpg",
+    location: 'Hyderabad',
+    caption: 'Grace in Stone'
+  },
+  {
+    url: "/assets/travel/guitar.jpg",
+    location: 'Vijayawada',
+    caption: 'Music Plays, Play Music'
+  },
+  {
+    url: "/assets/travel/chidambaram.jpg",
+    location: 'Chidambaram',
+    caption: 'Future to Know'
+  },
+  {
+    url: "/assets/travel/srisailam_dam.jpg",
+    location: 'Srisailam',
+    caption: 'Mighty Water Flow'
+  },
+  {
+    url: "/assets/travel/bza.jpg",
+    location: 'Vijayawada',
+    caption: 'Sips of Joy'
+  },
+  {
+    url: "/assets/travel/bhavani_islands.jpg",
+    location: 'Bhavani Islands',
+    caption: 'Nestled in Nature'
+  },
+  {
+    url: "/assets/travel/krishna_dam.jpg",
+    location: 'Prakasam Barrage',
+    caption: 'Bridge Over Calm'
+  },
+  {
+    url: "/assets/travel/Hyder_army_unit.jpg",
+    location: 'Army Unit, Hyderabad',
+    caption: 'Strength in Unity'
+  },
+  {
+    url: "/assets/travel/orissa.jpg",
+    location: 'Khudra Road, Orissa',
+    caption: 'Love the Trains'
+  },
+  {
+    url: "/assets/travel/kharagpur.jpg",
+    location: 'Kharagpur, West Bengal',
+    caption: 'Whispers in the Mist'
+  },
+  {
+    url: "/assets/travel/thala_for_reason.jpg",
+    location: 'Kharagpur Railway Station',
+    caption: 'Thala for a Reason'
+  },
+  {
+    url: "/assets/travel/vicotira_mahal.jpg",
+    location: 'Victoria Mahal, Kolkata',
+    caption: 'Beauty in Stone'
+  },
+  {
+    url: "/assets/travel/kali_mata.jpg",
+    location: 'Kali Mata Temple, Kolkata',
+    caption: 'Powerful Goddess'
+  },
+  {
+    url: "/assets/travel/vizag_beach.jpg",
+    location: 'RK Beach, Vizag',
+    caption: 'Enjoy every Breeze'
+  },
+  {
+    url: "/assets/travel/IITKGP.jpg",
+    location: 'IIT Kharagpur',
+    caption: 'Acheive the Impossible'
+  },
+  {
+    url: "/assets/travel/Intel AI Hackathon.jpg",
+    location: 'IIT Kharagpur',
+    caption: 'Hard work paid off'
+  },
+  {
+    url: "/assets/travel/sklm_aitam.jpg",
+    location: 'AITAM, Srikakulam',
+    caption: 'Learning and Building'
+  },
+  {
+    url: "/assets/travel/meet_with_GC_Indian_army.jpg",
+    location: 'RGUKT Nuzvid',
+    caption: 'Indian Army meets Us'
+  },
+  
+];
+
 export {
   navLinks,
   services,
@@ -787,5 +945,6 @@ export {
   researchProjects,
   socials,
   heroTexts,
+  travelImages ,
   achievementsData,
 };

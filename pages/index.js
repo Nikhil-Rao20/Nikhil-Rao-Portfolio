@@ -8,6 +8,7 @@ import {
   Navbar,
   StarsCanvas,
   Tech,
+  TravelGallery,
   Works,
   Achievements,
 } from "@/components";
@@ -55,6 +56,7 @@ function App({ loading }) {
       <Tech />
       <Works />
       <Achievements />
+      <TravelGallery />
       {/* <Feedbacks /> */}
       <section className="relative z-0 flex md:flex-row justify-between flex-col-reverse w-full h-full overflow-x-hidden sm:p-8 p-2 pb-8">
         <Contact />
