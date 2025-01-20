@@ -28,7 +28,7 @@ function Tech() {
   const languages = tech.map((technology, index) => (
     <div className="w-full h-fit flex gap-2 md:flex-row flex-col" key={index}>
       <h3 className="md:hidden">{techVariants[index]}</h3>
-      
+      <div className="w-full flex flex-row flex-wrap gap-2">
         {technology.map((tech, index) => (
           <Link
             href={tech.link}
@@ -50,6 +50,7 @@ function Tech() {
             </div>
           </Link>
         ))}
+      </div>
     </div>
   ));
 
