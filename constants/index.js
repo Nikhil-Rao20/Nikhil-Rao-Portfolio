@@ -300,6 +300,18 @@ const experiences = [
       
     ],
   },
+  {
+    title: "AI Research Inter",
+    company_name: "Core AI",
+    icon: "/assets/company/CoreAI_logo.png",
+    iconBg: "#E6DEDD",
+    date: "January 2025 - Current",
+    year: 2025,
+    points: [
+      "Image Compression on Medical Images by modifying current architectures",
+      "Analysis of Brain MRI Images with various technique for improving the model's performance"
+    ],
+  },
 ];
 
 const testimonials = [
