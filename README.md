@@ -56,12 +56,11 @@ This portfolio is built using **cutting-edge web technologies**, ensuring perfor
 
 ```bash
 📂 Nikhil-Rao-Portfolio
-│── 📁 src                # Source code for components and pages
-│── 📁 public             # Static assets (images, icons)
-│── 📁 components         # Reusable React components
-│── 📁 styles             # Global and component-level styles
-│── 📁 assets             # Images, icons, and other assets
-│── 📜 README.md          # Project documentation
-│── 📜 package.json       # Dependencies and scripts
-│── 📜 netlify.toml       # Deployment configuration
-│── 📜 .gitignore         # Git ignored files
+│── 📁 constants
+│── 📁 components
+│── 📁 hoc
+│── 📁 pages        
+│── 📁 public            
+│── 📁 styles            
+│── 📁 utils 
+│── 📜 README.md     
